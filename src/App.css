@@ -1,0 +1,45 @@
+
+
+.homeSection{
+    background:linear-gradient(to bottom,transparent,white), url(../src/images/GradientBackground.jpg);
+}
+
+.gradient-text {
+    background: linear-gradient(45deg, #3333ff, #ff00cc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+  }
+
+.rightHome img{
+height: 300px;
+border-radius: 1rem;
+
+}
+.rightHome .home1{
+    position: relative;
+    top: 3rem;
+}
+.rightHome .home3{
+    position: relative;
+    top: 2rem;
+   
+}
+
+.joinus{
+background: url(../src/images/section2bg.jpg);
+}
+
+.userProfile{
+   
+    z-index: 5;
+}
+.closemodal{
+    position: relative  ;
+    top: 1rem;
+    left: 21rem;
+    font-size: 1.5rem;
+}
+.closemodal:hover{
+    cursor: pointer;
+}

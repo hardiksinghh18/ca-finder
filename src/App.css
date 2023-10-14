@@ -1,45 +1,222 @@
+body {
+    overflow-x: hidden;
+}
 
+.homeSection {
+    background: linear-gradient(to bottom, transparent, white), url(../src/images/GradientBackground.jpg);
 
-.homeSection{
-    background:linear-gradient(to bottom,transparent,white), url(../src/images/GradientBackground.jpg);
 }
 
 .gradient-text {
     background: linear-gradient(45deg, #3333ff, #ff00cc);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-   
-  }
-
-.rightHome img{
-height: 300px;
-border-radius: 1rem;
 
 }
-.rightHome .home1{
+
+.rightHome img {
+    height: 300px;
+    border-radius: 1rem;
+
+}
+
+.rightHome .home1 {
     position: relative;
     top: 3rem;
 }
-.rightHome .home3{
+
+.rightHome .home3 {
     position: relative;
     top: 2rem;
-   
+
 }
 
-.joinus{
-background: url(../src/images/section2bg.jpg);
+.joinus {
+    background: linear-gradient(to bottom, transparent, white), url(../src/images/section2bg.jpg);
 }
 
-.userProfile{
-   
+.userProfile {
+
     z-index: 5;
 }
-.closemodal{
-    position: relative  ;
+
+.closemodal {
+    position: relative;
     top: 1rem;
     left: 21rem;
     font-size: 1.5rem;
 }
-.closemodal:hover{
+
+.closemodal:hover {
     cursor: pointer;
+}
+
+.carddiv {
+    background-color: #f6f6f6 !important;
+}
+
+.badge {
+    background: linear-gradient(to right, #3333ff, #ff00cc);
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: .5rem;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    right: 18rem;
+    top: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.allinone {
+    width: 45rem;
+}
+
+.chatmessage1 {
+    background-color: #efd9f9;
+    border-radius: 2rem 2rem 0rem 2rem;
+}
+
+.chatmessage2 {
+    background-color: #ddf3ff;
+    border-radius: 2rem 2rem 2rem 0rem;
+    
+}
+
+.joinLeft {
+    width: 100vw;
+}
+
+.footer {
+    background: linear-gradient(to right, #0d6cce, #5d2dd2);
+}
+
+
+
+/* responsive  */
+
+
+@media only screen and (max-width: 1080px) {
+    .homeSection {
+        flex-direction: column;
+        width: 100vw;
+        padding: .75rem !important;
+    }
+
+    .leftHome {
+        width: 100% !important;
+    }
+
+    .leftHome h1 {
+        font-size: 2rem !important;
+    }
+
+    .leftHome form input {
+        width: 80vw !important;
+    }
+
+    .rightHome img {
+        height: 200px;
+        border-radius: 1rem;
+
+    }
+
+    .joinus h1 {
+        font-size: 2rem !important;
+    }
+
+    .allinone {
+        flex-direction: column;
+        margin: 1rem !important;
+    }
+
+    .allinone h1 {
+        width: 90vw !important;
+        font-size: 2rem !important;
+    }
+
+    .joinRight {
+        width: 100vw !important;
+        margin-top: 5rem;
+    }
+.student{width: fit-content;}
+    .allinone .teacher img {
+        height: 150px;
+    }
+
+    .allinone .student img {
+        height: 150px;
+    }
+
+    .chatmessage1 {
+        font-size: .5rem !important;
+        width: fit-content !important;
+    }
+
+    .chatmessage2 {
+        font-size: .5rem !important;
+        width: fit-content !important;
+    }
+.all-in-one-icons img{
+height: 30px;
+}
+.all-in-one-icons p{
+font-size: .75rem;
+}
+.all-in-one-icons div{
+width: 40vw;
+}
+.footer-content{
+    /* font-size: .5rem; */
+    gap: 1rem;
+}
+.footer-content >div{
+    width: 30vw;
+}
+.footer-content ul{
+   gap: .25rem;
+}
+.submitbtn{
+    font-size: 1rem!important;
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+
+.aboutSection{
+    flex-direction: column;
+    margin: 0!important;
+    padding: 1rem!important;
+}
+.namediv{
+    width: 100vw!important;
+    margin: 0!important;
+    padding: 0!important;
+}
+.namediv img{
+    margin-top: 1rem;
+   height: 200px;
+}
+.namediv .services{
+ 
+   width: 90vw!important;
+}
+.namediv .country{
+ gap: 1.5rem;
+   width: 90vw!important;
+}
+
+.recommendedCards{
+    flex-direction: column;
+}
+
+
+.mainLogo {
+    width: 50vw!important;
+    margin: 1rem!important; 
+    padding: 0!important;
+
+}
 }

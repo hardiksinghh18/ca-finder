@@ -7,9 +7,9 @@ const Navbar = () => {
         
 
             <nav className=" border-gray-200 dark:bg-gray-900 dark:border-gray-700 flex  justify-between">
-                <div className="max-w-screen-xl flex flex-wrap items-center justify-start w-full mx-16 p-4">
+                <div className="mainLogo max-w-screen-xl flex flex-wrap items-center justify-start w-full mx-16 p-4">
                     <NavLink to={'/'} className="flex items-center">
-                        <img src={logo} className="h-8 mr-3" alt="Flowbite Logo" />
+                        <img src={logo} className="h-8 mr-3  " alt="" />
 
                     </NavLink>
 
